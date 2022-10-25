@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer {
+    body {
+        @apply min-h-screen;
+        @apply max-h-screen;
+    }
+
+    .math-display {
+        @apply m-auto;
+        @apply flex;
+        @apply justify-center;
+    }
+}
