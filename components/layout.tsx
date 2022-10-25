@@ -26,7 +26,7 @@ export default function Layout({ children }: Props) {
                     type: 'linear',
                     duration: 0.3,
                 }}
-                className="flex-1"
+                className="flex-1 mb-10"
             >
                 {children}
             </motion.main>
