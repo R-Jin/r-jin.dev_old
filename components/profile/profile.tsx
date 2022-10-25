@@ -6,7 +6,7 @@ const Profile = () => {
     return (
         <div className='flex flex-col py-10 items-center space-y-10 md:flex-row md:space-x-[50px] md:space-y-0 md:py-28'>
             <div className='rounded-full w-[250px] border-[14px] dark:border-darkLightBackground shadow-lg md:w-[500px]'>
-                <Image src="/profile.jpg" layout='responsive' width={900} height={900} alt="Profile picture" className='rounded-full'/>
+                <Image src="/profile.jpg" layout='responsive' width={900} height={900} alt="Profile picture" className='rounded-full' priority/>
             </div>
 
             <div className="flex flex-col justify-self-center">
