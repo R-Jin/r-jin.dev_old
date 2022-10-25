@@ -25,8 +25,59 @@ module.exports = {
       screens: {
         '3xl': '1920px',
         '4xl': '4096px',
+      }, 
+      typography: {
+        DEFAULT: {
+          css: {
+            '--tw-prose-headings':'#A9B1D6',
+            '--tw-prose-pre-bg': '#282A36',
+            '--tw-prose-hr': '#2F3240',
+            '--tw-prose-links': '#6E85B7',
+            '--tw-prose-quotes': '#A9B1D6',
+            '--tw-prose-bold': '#A9B1D6',
+            '--tw-prose-code': '#A9B1D6',
+            'code::before': {
+              content: '""',
+            },
+            'code::after': {
+              content: '""',
+            },
+
+            p: {
+              'font-family': 'Merriweather'
+            },
+
+            code: {
+              'background-color': '#24283B',
+              'padding': '4px',
+              'border-radius': '5px',
+            },
+            
+            hr: {
+              'border-width': '2px',
+              'background-color': '#2F3240',
+            },
+
+            a: {
+              'font-family': 'Merriweather',
+            },
+
+            'a:hover': {
+              'text-decoration': 'none',
+            },
+
+            img: {
+              'display': 'block',
+              'margin-left': 'auto',
+              'margin-right': 'auto',
+              'width': '75%',
+            }
+          }
+        }
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
