@@ -6,7 +6,7 @@ import Navigation from "./navigation"
 const Header: NextPage = () => {
     return (
 
-        <nav className="sticky top-0 bg-darkBackground">
+        <nav className="sticky top-0 bg-darkBackground z-10">
             <Navigation />
             {/* Add theme toggle switch */}
         </nav>
