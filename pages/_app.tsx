@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   const url = `https://r-jin.xyz${router.route}`;
 
   return (
-    <div className="flex flex-col min-h-screen px-8 md:px-[100px] lg:px-[200px] xl:px-[300px] 2xl:px-[400px] 3xl:px-[550px] bg-background dark:bg-darkBackground dark:text-darkforeground-50">
+    <div className="flex flex-col min-h-screen px-8 md:px-[100px] lg:px-[200px] xl:px-[300px] 2xl:px-[400px] 3xl:px-[630px] bg-background dark:bg-darkBackground dark:text-darkforeground-50">
       <Header />
         <AnimatePresence mode="wait" >
           <Component {...pageProps} canonical={url} key={url} />
