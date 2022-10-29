@@ -10,11 +10,11 @@ const Profile = () => {
             </div>
 
             <div className="flex flex-col justify-self-center">
-                <h3 className='font-serif text-xs dark:text-darkAccent pb-1 md:text-sm'>Hi, my name is</h3>
-                <h1 className='font-sans font-extrabold text-4xl pb-4 md:text-5xl'>Ryan Jin</h1>
-                <p className='font-serif text-base md:text-base'>
-                    I'm a <span className='dark:text-darkAccent'>Computer Science Student</span> based in Gothenburg, Sweden. 
-                    Currently, I'm focused on <span className='dark:text-darkAccent'>simulation models</span>, 
+                <h3 className='font-serif text-sm dark:text-darkAccent pb-1 md:text-base'>Hi, my name is</h3>
+                <h1 className='font-sans font-extrabold text-4xl pb-4 md:text-6xl'>Ryan Jin</h1>
+                <p className='font-serif text-base md:text-xl'>
+                    I&apos;m a <span className='dark:text-darkAccent'>Computer Science Student</span> based in Gothenburg, Sweden. 
+                    Currently, I&apos;m focused on <span className='dark:text-darkAccent'>simulation models</span>, 
                     <span className='dark:text-darkAccent'> web development</span> and topics related 
                     to <span className='dark:text-darkAccent'>Linux</span>.
                 </p>

@@ -4,7 +4,7 @@ import { FaGithubAlt, FaLinkedin } from 'react-icons/fa';
 import { MdAlternateEmail } from 'react-icons/md'
 
 const Socials: NextPage = () => {
-    const size = 25;
+    const size = 24;
     return (
         <div className="flex flex-row space-x-5 justify-start pt-4">
             <Link href="https://linkedin.com/in/r-jin01" >
