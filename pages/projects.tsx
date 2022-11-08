@@ -21,7 +21,7 @@ const Projects: NextPage = ({allProjectsData}: any) => {
                 Projects
             </h1>
             <p className="text-lg mt-5 md:text-2xl font-serif">
-                A selection of projects I've developed, during my free time.
+                A selection of projects I&apos;ve developed, during my free time.
             </p>
             <Socials />
 
