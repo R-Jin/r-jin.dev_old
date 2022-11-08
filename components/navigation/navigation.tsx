@@ -3,7 +3,7 @@ import DarkModeToggle from "./darkModeToggle"
 
 const links = [
     {name: "Home", to: "/", id: 1 },
-    {name: "Projects", to: "/", id: 2},
+    {name: "Projects", to: "/projects", id: 2},
     {name: "Writing", to: "/writings", id: 3},
     {name: "Resume", to: "/", id: 4},
 ]
