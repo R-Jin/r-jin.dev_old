@@ -17,7 +17,7 @@ export const getStaticProps: GetStaticProps = async () => {
 const Projects: NextPage = ({allProjectsData}: any) => {
     return (
         <Layout>
-            <h1 className="text-2xl mt-10 md:text-6xl font-extrabold md:mt-20">
+            <h1 className="text-3xl mt-20 md:text-6xl font-extrabold md:mt-20">
                 Projects
             </h1>
             <p className="text-lg mt-5 md:text-2xl font-serif">
