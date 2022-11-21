@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
-    "@microflash/remark-figure-caption": "^1.0.0",
     "framer-motion": "^7.5.1",
     "gray-matter": "^4.0.3",
     "next": "12.3.1",
@@ -35,6 +34,7 @@
     "unified": "^10.1.2"
   },
   "devDependencies": {
+    "@microflash/remark-figure-caption": "^1.0.0",
     "@tailwindcss/typography": "^0.5.7",
     "@types/node": "18.7.23",
     "@types/react": "18.0.21",

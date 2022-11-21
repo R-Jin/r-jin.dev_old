@@ -10,7 +10,7 @@ import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import ReactMarkdown from 'react-markdown';
 import emoji from 'remark-emoji';
 import remarkImages from 'remark-images';
-import remarkFigureCaption from '@microflash/remark-figure-caption';
+const remarkFigureCaption = require('@microflash/remark-figure-caption');
 
 const MarkdownComponents: object = {
   code({node, inline, className, children, ...props}: any) {
