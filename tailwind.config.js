@@ -65,6 +65,7 @@ module.exports = {
 
               a: {
                 'font-family': 'Merriweather',
+                'font-weight': 'bold',
               },
 
               'a:hover': {
