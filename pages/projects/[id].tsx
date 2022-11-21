@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
 import Layout from "../../components/layout";
 import { getAllProjectIds, getProjectData } from "../../lib/projects";
 import gfm from "remark-gfm";
@@ -10,7 +9,7 @@ import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import ReactMarkdown from 'react-markdown';
 import emoji from 'remark-emoji';
 import remarkImages from 'remark-images';
-const remarkFigureCaption = require('@microflash/remark-figure-caption');
+import remarkFigureCaption from '@microflash/remark-figure-caption';
 
 const MarkdownComponents: object = {
   code({node, inline, className, children, ...props}: any) {
