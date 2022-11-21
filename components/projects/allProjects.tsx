@@ -25,9 +25,9 @@ export default function AllProjects({allProjectsData}: {
                                     <p className="font-serif text-sm pt-1">
                                         {project.metaDesc}
                                     </p>
-                                    <ul className="grid grid-cols-4 w-1/3 pt-3">
+                                    <ul className="grid grid-cols-3 w-1/2 md:w-1/3 pt-3">
                                         {project.tags.map((tag) => (
-                                            <li key={tag} className="font-serif text-xs underline">
+                                            <li key={tag} className="font-serif text-xs underline pt-1">
                                                 {tag}
                                             </li>
                                         ))}

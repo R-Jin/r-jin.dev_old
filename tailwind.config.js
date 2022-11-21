@@ -73,9 +73,17 @@ module.exports = {
 
               img: {
                 'display': 'block',
-                'margin-left': 'auto',
-                'margin-right': 'auto',
-                'width': '75%',
+                // 'margin-left': 'auto',
+                // 'margin-right': 'auto',
+                'border-radius': '10px',
+                'width': '100%',
+              },
+
+              'figcaption': {
+                'font-family': 'Merriweather',
+                'font-style': 'italic',
+                'text-align': 'center',
+                'color': '#312C3A'
               }
             }
           }, 
@@ -123,9 +131,13 @@ module.exports = {
 
               img: {
                 'display': 'block',
-                'margin-left': 'auto',
-                'margin-right': 'auto',
-                'width': '75%',
+                // 'margin-left': 'auto',
+                // 'margin-right': 'auto',
+                'margin': '0px',
+                'width': '100%',
+              },
+              'figcaption': {
+                'color': '#A9B1D6',
               }
             }
           }

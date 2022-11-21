@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
+    "@microflash/remark-figure-caption": "^1.0.0",
     "framer-motion": "^7.5.1",
     "gray-matter": "^4.0.3",
     "next": "12.3.1",
@@ -25,6 +26,7 @@
     "rehype-react": "^7.1.1",
     "remark-emoji": "^3.0.2",
     "remark-gfm": "^3.0.1",
+    "remark-images": "^3.1.0",
     "remark-math": "^5.1.1",
     "remark-parse": "^10.0.1",
     "remark-prism": "^1.3.6",

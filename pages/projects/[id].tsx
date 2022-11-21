@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 import Layout from "../../components/layout";
 import { getAllProjectIds, getProjectData } from "../../lib/projects";
 import gfm from "remark-gfm";
@@ -8,8 +9,10 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
 import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import ReactMarkdown from 'react-markdown';
 import emoji from 'remark-emoji';
+import remarkImages from 'remark-images';
+import remarkFigureCaption from '@microflash/remark-figure-caption';
 
-const CodeBlock = {
+const MarkdownComponents: object = {
   code({node, inline, className, children, ...props}: any) {
     const match = /language-(\w+)/.exec(className || '')
     return !inline && match ? (
@@ -25,8 +28,9 @@ const CodeBlock = {
         {children}
       </code>
     )
-  }
+  },
 }
+
 
 export default function Project({ projectData }: Data) {
 
@@ -36,8 +40,8 @@ export default function Project({ projectData }: Data) {
             <small className="font-serif text-sm">{projectData.date}</small>
             <article className='prose dark:prose-dark text-foreground-50 dark:text-darkforeground-50 pt-10 max-w-none'>
                 <ReactMarkdown 
-                    components={CodeBlock} 
-                    remarkPlugins={[remarkMath, gfm, emoji]} 
+                    components={MarkdownComponents} 
+                    remarkPlugins={[remarkImages, remarkMath, gfm, emoji, remarkFigureCaption]} 
                     rehypePlugins={[rehypeMathJax]}
                 >
                     {projectData.markdown}
