@@ -19,7 +19,7 @@ export default function  LatestPosts({allPostsData}: {
                         <Link href={`/posts/${post.id}`} >
                             <a>
                                 <li key={post.id}>
-                                    <h1 className="font-sans text-2xl font-extrabold text-darkAccent">
+                                    <h1 className="font-sans text-2xl font-extrabold text-blueAccent dark:text-darkAccent">
                                         {post.title}
                                     </h1>
                                     <small className="font-serif text-sm">
@@ -38,7 +38,7 @@ export default function  LatestPosts({allPostsData}: {
                                 </li>
                             </a>
                         </Link>
-                        <hr className="text-darkforeground-100 my-8"/>
+                        <hr className="text-foreground dark:text-darkforeground-100 my-8"/>
                     </div>
                 ))}
             </ul>

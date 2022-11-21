@@ -34,7 +34,7 @@ export default function Project({ projectData }: Data) {
         <Layout>
             <h1 className="font-sans font-extrabold text-3xl pt-10 md:pt-20 md:text-5xl ">{projectData.title}</h1>
             <small className="font-serif text-sm">{projectData.date}</small>
-            <article className='prose text-darkforeground-50 pt-10 max-w-none'>
+            <article className='prose dark:prose-dark text-foreground-50 dark:text-darkforeground-50 pt-10 max-w-none'>
                 <ReactMarkdown 
                     components={CodeBlock} 
                     remarkPlugins={[remarkMath, gfm, emoji]} 

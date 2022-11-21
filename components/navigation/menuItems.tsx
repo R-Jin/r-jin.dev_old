@@ -7,7 +7,7 @@ interface Item {
 
 const MenuItem = ({name, to}: Item) => {
     return (
-        <Link href={to} scroll={false}>
+        <Link href={to} scroll={false} className=" text-foreground">
             <a>{name}</a>
         </Link>
     )

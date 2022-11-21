@@ -12,14 +12,14 @@ const Navigation = () => {
     return (
         <>
             <div className="flex flex-row justify-between items-center">
-                <div className={`text-xs py-4 space-x-5 font-sans text-foreground dark:text-darkforeground-50 font-semibold flex text-center justify-left md:text-xl lg:space-x-10 lg:space-y-0`}>
+                <div className={`text-xs py-8 space-x-5 font-sans text-foreground dark:text-darkforeground-50 font-semibold flex text-center justify-left md:text-xl lg:space-x-10 lg:space-y-0`}>
                     {links.map(({ name, to, id }) => (
                         <MenuItem key={id} name={name} to={to} />
                     ))}
                 </div>
                 <DarkModeToggle />
             </div>
-            <hr className="dark:border-darkforeground-100"/>
+            <hr className=" border-foreground dark:border-darkforeground-100"/>
         </>
     )
 }
