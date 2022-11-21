@@ -1,8 +1,5 @@
-import Head from "next/head"
 import React, {ReactNode} from "react";
-import Header from "./navigation/header";
-import { motion, AnimatePresence } from "framer-motion";
-import { useRouter } from "next/router";
+import { motion } from "framer-motion";
 
 interface Props {
     children?:ReactNode
