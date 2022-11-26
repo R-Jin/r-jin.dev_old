@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <ThemeProvider attribute='class'>
       <Header />
-      <div className="flex flex-col min-h-screen px-8 md:px-[150px] lg:px-[250px] xl:px-[300px] 2xl:px-[400px] 3xl:px-[640px] dark:text-darkforeground-50 text-foreground">
+      <div className="flex flex-col min-h-screen px-8 md:px-[150px] lg:px-[250px] xl:px-[375px] 2xl:px-[400px] 3xl:px-[640px] dark:text-darkforeground-50 text-foreground">
           <AnimatePresence mode="wait" >
             <Component {...pageProps} canonical={url} key={url} />
           </AnimatePresence>
