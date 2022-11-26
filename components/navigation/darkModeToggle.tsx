@@ -3,7 +3,6 @@ import { useTheme } from 'next-themes';
 import {SunIcon, MoonIcon} from '@heroicons/react/24/outline';
 
 export default function DarkModeToggle() {
-  // const [colorTheme, setTheme] = useDarkMode();
 
   const [mounted, setMounted] = useState(false)
   const {theme, setTheme } = useTheme()
