@@ -32,9 +32,9 @@ export default function Post({ postData }: Data) {
 
     return (
         <Layout>
-            <h1 className="font-sans font-extrabold text-3xl pt-10 md:pt-20 md:text-5xl ">{postData.title}</h1>
+            <h1 className="font-sans font-extrabold text-3xl pt-10 md:text-4xl ">{postData.title}</h1>
             <small className="font-serif text-sm">{postData.date}</small>
-            <article className='prose dark:prose-dark text-foreground dark:text-darkforeground-50 pt-10 max-w-none'>
+            <article className='prose dark:prose-dark text-foreground dark:text-darkforeground-50 pt-5 max-w-none'>
                 <ReactMarkdown 
                     components={CodeBlock} 
                     remarkPlugins={[remarkMath, gfm, emoji]} 
