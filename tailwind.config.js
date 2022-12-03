@@ -73,7 +73,9 @@ module.exports = {
               'a:hover': {
                 'text-decoration': 'none',
               },
-
+              li: {
+                'font-family': 'Merriweather'
+              },
               img: {
                 'display': 'block',
                 // 'margin-left': 'auto',
