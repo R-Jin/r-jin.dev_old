@@ -5,6 +5,7 @@ metaDesc: 'Day 1: Calorie Counting'
 date: '2022-12-01'
 tags: 
     - Coding
+    - Python
 ---
 
 Last year I tried [Advent of Code 2021](https://adventofcode.com/2021), 
