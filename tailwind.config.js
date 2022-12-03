@@ -53,6 +53,8 @@ module.exports = {
               },
 
               code: {
+                'display': 'block',
+                'text-indent':'0px',
                 'background-color': '#dddfe1',
                 'padding': '4px',
                 'border-radius': '5px',
