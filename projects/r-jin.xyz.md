@@ -1,6 +1,6 @@
 ---
-title: 'r-jin.xyz'
-metaTitle: 'r-jin.xyz'
+title: 'r-jin.dev
+metaTitle: 'r-jin.dev'
 metaDesc: 'My digital garden'
 date: '2022-11-21'
 tags: 
@@ -23,4 +23,4 @@ a markdown processor powered by plugins. Additionally the animations where creat
 
 ![Framer Motion animations and dark mode toggle](/media/animation_theme_switcher.gif)
 
-[The source code for r-jin.xyz is available on GitHub](https://github.com/R-Jin/r-jin.xyz)
+[The source code for r-jin.xyz is available on GitHub](https://github.com/R-Jin/r-jin.dev)
