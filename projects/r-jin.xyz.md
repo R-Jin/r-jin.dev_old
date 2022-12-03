@@ -1,5 +1,5 @@
 ---
-title: 'r-jin.dev
+title: 'r-jin.dev'
 metaTitle: 'r-jin.dev'
 metaDesc: 'My digital garden'
 date: '2022-11-21'
