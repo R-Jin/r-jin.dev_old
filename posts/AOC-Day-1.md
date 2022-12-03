@@ -104,3 +104,5 @@ for number in lines:
 
 print(highest + second + third)
 ```
+
+[The source code for all the solutions will be available on Github](https://github.com/R-Jin/Advent-of-Code)
