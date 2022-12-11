@@ -8,6 +8,8 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
 import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import ReactMarkdown from 'react-markdown';
 import emoji from 'remark-emoji';
+import remarkImages from 'remark-images';
+import remarkFigureCaption from '@microflash/remark-figure-caption';
 
 const CodeBlock = {
   code({node, inline, className, children, ...props}: any) {
@@ -37,7 +39,7 @@ export default function Post({ postData }: Data) {
             <article className='prose dark:prose-dark text-foreground dark:text-darkforeground-50 pt-5 max-w-none'>
                 <ReactMarkdown 
                     components={CodeBlock} 
-                    remarkPlugins={[remarkMath, gfm, emoji]} 
+                    remarkPlugins={[remarkImages, remarkMath, gfm, emoji, remarkFigureCaption]} 
                     rehypePlugins={[rehypeMathJax]}
                 >
                     {postData.markdown}
