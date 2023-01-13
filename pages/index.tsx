@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import { GetStaticProps } from "next";
+import Head from 'next/head';
 import { getSortedPostsData } from '../lib/posts';
 import Layout from '../components/layout';
 import Profile from '../components/profile/profile';
@@ -17,6 +18,9 @@ export const getStaticProps: GetStaticProps = async () => {
 const Home: NextPage = ({allPostsData}: any) => {
   return (
       <Layout>
+        <Head>
+          <title>Home</title>
+        </Head>
         <Profile />
         <div className='my-20'>
           <h1 className='text-3xl font-sans font-bold pb-2'>About Me</h1>

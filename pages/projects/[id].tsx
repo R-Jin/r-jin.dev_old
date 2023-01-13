@@ -10,6 +10,7 @@ import ReactMarkdown from 'react-markdown';
 import emoji from 'remark-emoji';
 import remarkImages from 'remark-images';
 import remarkFigureCaption from '@microflash/remark-figure-caption';
+import Head from 'next/head';
 
 const MarkdownComponents: object = {
   code({node, inline, className, children, ...props}: any) {
@@ -35,6 +36,9 @@ export default function Project({ projectData }: Data) {
 
     return (
         <Layout>
+            <Head>
+                <title>{projectData.title}</title>
+            </Head>
             <h1 className="font-sans font-extrabold text-3xl pt-10 md:pt-20 md:text-5xl ">{projectData.title}</h1>
             <small className="font-serif text-sm">{projectData.date}</small>
             <article className='prose dark:prose-dark text-foreground-50 dark:text-darkforeground-50 pt-10 max-w-none'>

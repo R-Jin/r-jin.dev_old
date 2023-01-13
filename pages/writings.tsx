@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import Socials from "../components/profile/socials";
 import { GetStaticProps } from "next";
 import { getSortedPostsData } from "../lib/posts";
+import Head from "next/head";
 
 export const getStaticProps: GetStaticProps = async () => {
     const allPostsData = getSortedPostsData()
@@ -17,6 +18,9 @@ export const getStaticProps: GetStaticProps = async () => {
 const Writings: NextPage = ({allPostsData}: any) => {
     return (
         <Layout>
+            <Head>
+                <title>Writings</title>
+            </Head>
             <h1 className="text-3xl mt-20 md:text-6xl font-extrabold md:mt-20">
                 Writings
             </h1>
