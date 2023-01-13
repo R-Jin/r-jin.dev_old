@@ -23,4 +23,4 @@ a markdown processor powered by plugins. Additionally the animations where creat
 
 ![Framer Motion animations and dark mode toggle](/media/animation_theme_switcher.gif)
 
-[The source code for r-jin.xyz is available on GitHub](https://github.com/R-Jin/r-jin.dev)
+[The source code for r-jin.dev is available on GitHub](https://github.com/R-Jin/r-jin.dev)
