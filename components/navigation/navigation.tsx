@@ -5,7 +5,7 @@ const links = [
     {name: "Home", to: "/", id: 1 },
     {name: "Projects", to: "/projects", id: 2},
     {name: "Writing", to: "/writings", id: 3},
-    {name: "Resume", to: "/", id: 4},
+    {name: "Resume", to: "/Resume.pdf", id: 4},
 ]
 
 const Navigation = () => {
