@@ -26,8 +26,8 @@ const Home: NextPage = ({allPostsData}: any) => {
           <h1 className='text-3xl font-sans font-bold pb-2'>About Me</h1>
           <p className='font-serif text-lg'>
               Currently, I&apos;m focused on <span className='text-blueAccent dark:text-darkAccent'> web development</span> 
-              , <span className='text-blueAccent dark:text-darkAccent'>machine learning</span> and topics related to 
-              <span className='text-blueAccent dark:text-darkAccent'> Linux</span>.
+              ,  and topics related to <span className='text-blueAccent dark:text-darkAccent'> Linux</span> and 
+              <span className='text-blueAccent dark:text-darkAccent'> computer science</span>.
               In my free time I enjoy playing badminton, reading, playing video games and learning 
               about new topics within the field of computer science.
           </p>
