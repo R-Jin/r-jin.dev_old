@@ -28,8 +28,7 @@ const Home: NextPage = ({allPostsData}: any) => {
               Currently, I&apos;m focused on <span className='text-blueAccent dark:text-darkAccent'> web development</span> 
               ,  and topics related to <span className='text-blueAccent dark:text-darkAccent'> Linux</span> and 
               <span className='text-blueAccent dark:text-darkAccent'> computer science</span>.
-              In my free time I enjoy playing badminton, reading, playing video games and learning 
-              about new topics within the field of computer science.
+              In my free time I enjoy playing badminton, reading, playing video games.           
           </p>
         </div>
         <LatestPosts allPostsData={allPostsData}/>
