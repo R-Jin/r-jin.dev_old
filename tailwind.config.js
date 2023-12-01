@@ -47,9 +47,20 @@ module.exports = {
               'code::after': {
                 content: '""',
               },
-
+              h1: {
+                'margin-bottom': '0px',
+                'margin-top': '50px',
+              },
+              h2: {
+                'margin-bottom': '0px',
+                'margin-top': '50px',
+              },
+              h3: {
+                'margin-bottom': '0px',
+                'margin-top': '50px',
+              },
               p: {
-                'font-family': 'Merriweather'
+                'font-family': 'Merriweather',
               },
 
               code: {
