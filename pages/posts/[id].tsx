@@ -19,6 +19,7 @@ const CodeBlock = {
     <SyntaxHighlighter 
       style={dracula} 
       language={match[1]} 
+      wrapLongLines={true}
       PreTag="div" {...props}>
       {String(children).replace(/\n$/, '')}
     </SyntaxHighlighter>

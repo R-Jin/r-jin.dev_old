@@ -68,7 +68,7 @@ module.exports = {
                 'background-color': '#dddfe1',
                 'padding': '4px',
                 'border-radius': '5px',
-                'font-weight': 'normal',
+                'font-weight': 'bold',
               },
               
               hr: {
