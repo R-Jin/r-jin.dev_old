@@ -25,7 +25,7 @@ export default function AllPosts({allPostsData}: {
                                     <p className="font-serif text-sm pt-1">
                                         {post.metaDesc}
                                     </p>
-                                    <ul className="grid grid-cols-4 w-1/3 pt-3">
+                                    <ul className="grid grid-cols-4 w-2/3 pt-3">
                                         {post.tags.map((tag) => (
                                             <li key={tag} className="font-serif text-xs underline">
                                                 {tag}
